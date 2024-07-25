@@ -8,15 +8,11 @@ Project Setup
 
     npm install --save-dev playwright
 
-    Use code with caution.
-
 Download Browsers (Optional):
 Playwright can download browsers automatically the first time a test is run. However, for faster execution or specific browser versions, you can download them manually:
 Bash
 
 playwright download
-
-Use code with caution.
 
 Running Tests
 
@@ -27,7 +23,7 @@ There are several ways to run your Playwright tests:
 
     npx playwright test
 
-    Use code with caution.
+    
 
 Run specific tests:
 
@@ -37,7 +33,7 @@ Bash
 npx playwright test login.test.js  # Run a single test file
 npx playwright test login*.test.js  # Run all tests matching a pattern
 
-Use code with caution.
+
 
 Run with options:
 
@@ -50,7 +46,7 @@ Bash
 
 npx playwright test login.test.js --browser=firefox --headed
 
-Use code with caution.
+
 
 Understanding the Tests
 
