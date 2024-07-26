@@ -23,7 +23,7 @@ There are several ways to run your Playwright tests:
 
     npx playwright test
 
-    
+
 
 Run specific tests:
 
@@ -58,6 +58,8 @@ This project includes three Playwright tests that demonstrate login scenarios on
         Tests if appropriate error messages appear when leaving both email and password fields empty.
     Scenario III - Successful Login:
         Tests if a successful login displays the expected purchase list and profile header.
+    Scenario IV - Multiple Login Attempts:
+        Tests if a multiple login attempts shows only one error message.
 
 Test Structure
 
